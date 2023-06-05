@@ -1,0 +1,255 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  padding-left: 5%; 
+  padding-right: 5%; 
+  font-weight: normal;
+  background: #524433;
+  font-family: "Times New Roman";
+  position: fixed;
+  width: 100%;
+  top: 0;
+  text-align: justify;
+  font-size:20px ; 
+}
+
+
+
+  nav li a:hover {
+    background:#b4925e;
+    border-radius: 0px;
+    transition:all 0.5s ease ;
+  }
+
+  h4:hover {
+    background:#b4925e;
+    border-radius: 0px;
+    transition:all 0.5s ease ;
+
+  }
+  
+  h1 {
+    color:#F5F5DC;
+    font-size: 25px;
+    font-family: "Times New Roman";
+  }
+  
+  h2 {
+    color: #524433;
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-align: left;
+    margin: 20px;
+  }
+  
+  h3{
+  color: #556B2F;
+    font-family: "Times New Roman";
+    font-size: 35px;
+    text-align: left;
+    margin: 20px;
+  
+  }
+  
+  h4{
+  color: #524433;
+    font-family: "Times New Roman";
+    font-size: 35px;
+    text-align: center;
+  
+  }
+  
+  h5{
+  color: #556B2F;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    text-align: center;
+  
+  }
+  
+  
+  div li {
+    display: inline-block;
+    padding: 15px;
+    text-align: justify;
+  }
+  
+  li {
+    color: white;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: white;
+    font-size:25px;
+  }
+  
+  
+  body {
+    margin: 0;
+    background: #eee7d3;    
+  }
+  
+  p {
+    font-family: "Times New Roman";
+    text-align: left;
+    color: #;
+    font-size: 20px;
+    display: block;
+    margin: 20px;
+  
+  }
+  
+  img {
+    margin: 10px auto 10px; 
+    display: block;
+    width: 650px;
+    height: 350px;
+  }
+  
+  div {
+    margin-top: 10px;
+  }
+  
+  iframe{
+    margin: 10px auto 10px; 
+    display: block;
+    width: 650px;
+    height: 350px;
+  }
+  
+  
+  
+  html{scroll-behavior: smooth;
+  
+  }
+  
+  form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+      
+  form div {
+  margin-bottom: 10px;
+  }
+      
+  label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  }
+      
+  input[type="email"],
+  input[type="password"],
+  textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  }
+      
+  input[
+  type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  }
+      
+  input[
+  type="submit"]:hover {
+  background-color: #45a049;
+      }
+
+      * {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.mySlides {
+  display: none;
+  align-items: center;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #6e604d;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+iframe{
+  align-items: center;
+  width: 1080;
+  height: 950;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
